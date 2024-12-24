@@ -1,0 +1,3 @@
+/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/cmake-build-debug/CMakeFiles/optimalMultiplicMatrices.dir
+/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/cmake-build-debug/CMakeFiles/rebuild_cache.dir
