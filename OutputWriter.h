@@ -7,10 +7,12 @@
 
 #include "MatrixChain.h"
 #include <string>
+#include <sstream>
 
 
 class OutputWriter {
 public:
+    static std::string generateOutput(MatrixChain& chain);
     static void writeToStandardOutput(MatrixChain& chain);
 };
 

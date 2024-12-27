@@ -17,5 +17,4 @@ add_executable(optimalMultiplicMatrices main.cpp
         OutputWriter.h
         MatrixController.cpp
         MatrixController.h
-        MatrixChainController.cpp
-        MatrixChainController.h)
+)

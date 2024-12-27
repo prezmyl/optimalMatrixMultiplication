@@ -18,9 +18,11 @@ class MatrixController {
 private:
     MatrixChain chain;
     MatrixOptimizer &optimizer;
+    std::vector<std::string> results;
 
 public:
     MatrixController(MatrixOptimizer& optimizer);
+    void processFile(const std::string &inputFile);
     void processInput(const std::string& input);
     void outputResult();
 

@@ -1,4 +1,5 @@
-#include "MatrixChainController.h"
+#include "MatrixController.h"
+#include "OptimizerCostBased.h"
 #include <iostream>
 
 using namespace std;
@@ -10,8 +11,10 @@ int main(int argc, char **argv) {
     }
 
     try {
-        MatrixChainController controller;
+        OptimizerCostBased optimizer;
+        MatrixController controller(optimizer);
         controller.processFile(argv[1]);
+        controller.outputResult();
     } catch (const exception &e) {
         cerr << "Error: " << e.what() << endl;
         return 1;
