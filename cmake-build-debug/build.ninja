@@ -154,7 +154,22 @@ build CMakeFiles/optimalMultiplicMatrices.dir/MatrixController.cpp.o: CXX_COMPIL
   OBJECT_FILE_DIR = CMakeFiles/optimalMultiplicMatrices.dir
   dyndep = CMakeFiles/optimalMultiplicMatrices.dir/CXX.dd
 
-build CMakeFiles/optimalMultiplicMatrices.dir/CXX.dd | /home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/cmake-build-debug/CMakeFiles/optimalMultiplicMatrices.dir/CXXModules.json CMakeFiles/optimalMultiplicMatrices.dir/main.cpp.o.modmap CMakeFiles/optimalMultiplicMatrices.dir/Matrix.cpp.o.modmap CMakeFiles/optimalMultiplicMatrices.dir/MatrixChain.cpp.o.modmap CMakeFiles/optimalMultiplicMatrices.dir/OptimizerCostBased.cpp.o.modmap CMakeFiles/optimalMultiplicMatrices.dir/InputReader.cpp.o.modmap CMakeFiles/optimalMultiplicMatrices.dir/OutputWriter.cpp.o.modmap CMakeFiles/optimalMultiplicMatrices.dir/MatrixController.cpp.o.modmap: CXX_DYNDEP__optimalMultiplicMatrices_Debug CMakeFiles/optimalMultiplicMatrices.dir/main.cpp.o.ddi CMakeFiles/optimalMultiplicMatrices.dir/Matrix.cpp.o.ddi CMakeFiles/optimalMultiplicMatrices.dir/MatrixChain.cpp.o.ddi CMakeFiles/optimalMultiplicMatrices.dir/OptimizerCostBased.cpp.o.ddi CMakeFiles/optimalMultiplicMatrices.dir/InputReader.cpp.o.ddi CMakeFiles/optimalMultiplicMatrices.dir/OutputWriter.cpp.o.ddi CMakeFiles/optimalMultiplicMatrices.dir/MatrixController.cpp.o.ddi | /home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/cmake-build-debug/CMakeFiles/optimalMultiplicMatrices.dir/CXXDependInfo.json
+build CMakeFiles/optimalMultiplicMatrices.dir/MatrixChainController.cpp.o.ddi: CXX_SCAN__optimalMultiplicMatrices_Debug /home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChainController.cpp || cmake_object_order_depends_target_optimalMultiplicMatrices
+  DEP_FILE = CMakeFiles/optimalMultiplicMatrices.dir/MatrixChainController.cpp.o.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles/optimalMultiplicMatrices.dir/MatrixChainController.cpp.o.ddi
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles/optimalMultiplicMatrices.dir/MatrixChainController.cpp.o
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles/optimalMultiplicMatrices.dir/MatrixChainController.cpp.o.ddi.i
+
+build CMakeFiles/optimalMultiplicMatrices.dir/MatrixChainController.cpp.o: CXX_COMPILER__optimalMultiplicMatrices_scanned_Debug /home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChainController.cpp | CMakeFiles/optimalMultiplicMatrices.dir/MatrixChainController.cpp.o.modmap || cmake_object_order_depends_target_optimalMultiplicMatrices CMakeFiles/optimalMultiplicMatrices.dir/CXX.dd
+  DEP_FILE = CMakeFiles/optimalMultiplicMatrices.dir/MatrixChainController.cpp.o.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles/optimalMultiplicMatrices.dir/MatrixChainController.cpp.o.modmap
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/optimalMultiplicMatrices.dir
+  OBJECT_FILE_DIR = CMakeFiles/optimalMultiplicMatrices.dir
+  dyndep = CMakeFiles/optimalMultiplicMatrices.dir/CXX.dd
+
+build CMakeFiles/optimalMultiplicMatrices.dir/CXX.dd | /home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/cmake-build-debug/CMakeFiles/optimalMultiplicMatrices.dir/CXXModules.json CMakeFiles/optimalMultiplicMatrices.dir/main.cpp.o.modmap CMakeFiles/optimalMultiplicMatrices.dir/Matrix.cpp.o.modmap CMakeFiles/optimalMultiplicMatrices.dir/MatrixChain.cpp.o.modmap CMakeFiles/optimalMultiplicMatrices.dir/OptimizerCostBased.cpp.o.modmap CMakeFiles/optimalMultiplicMatrices.dir/InputReader.cpp.o.modmap CMakeFiles/optimalMultiplicMatrices.dir/OutputWriter.cpp.o.modmap CMakeFiles/optimalMultiplicMatrices.dir/MatrixController.cpp.o.modmap CMakeFiles/optimalMultiplicMatrices.dir/MatrixChainController.cpp.o.modmap: CXX_DYNDEP__optimalMultiplicMatrices_Debug CMakeFiles/optimalMultiplicMatrices.dir/main.cpp.o.ddi CMakeFiles/optimalMultiplicMatrices.dir/Matrix.cpp.o.ddi CMakeFiles/optimalMultiplicMatrices.dir/MatrixChain.cpp.o.ddi CMakeFiles/optimalMultiplicMatrices.dir/OptimizerCostBased.cpp.o.ddi CMakeFiles/optimalMultiplicMatrices.dir/InputReader.cpp.o.ddi CMakeFiles/optimalMultiplicMatrices.dir/OutputWriter.cpp.o.ddi CMakeFiles/optimalMultiplicMatrices.dir/MatrixController.cpp.o.ddi CMakeFiles/optimalMultiplicMatrices.dir/MatrixChainController.cpp.o.ddi | /home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/cmake-build-debug/CMakeFiles/optimalMultiplicMatrices.dir/CXXDependInfo.json
 
 
 # =============================================================================
@@ -164,7 +179,7 @@ build CMakeFiles/optimalMultiplicMatrices.dir/CXX.dd | /home/xpolas/banska/algor
 #############################################
 # Link the executable optimalMultiplicMatrices
 
-build optimalMultiplicMatrices: CXX_EXECUTABLE_LINKER__optimalMultiplicMatrices_Debug CMakeFiles/optimalMultiplicMatrices.dir/main.cpp.o CMakeFiles/optimalMultiplicMatrices.dir/Matrix.cpp.o CMakeFiles/optimalMultiplicMatrices.dir/MatrixChain.cpp.o CMakeFiles/optimalMultiplicMatrices.dir/OptimizerCostBased.cpp.o CMakeFiles/optimalMultiplicMatrices.dir/InputReader.cpp.o CMakeFiles/optimalMultiplicMatrices.dir/OutputWriter.cpp.o CMakeFiles/optimalMultiplicMatrices.dir/MatrixController.cpp.o
+build optimalMultiplicMatrices: CXX_EXECUTABLE_LINKER__optimalMultiplicMatrices_Debug CMakeFiles/optimalMultiplicMatrices.dir/main.cpp.o CMakeFiles/optimalMultiplicMatrices.dir/Matrix.cpp.o CMakeFiles/optimalMultiplicMatrices.dir/MatrixChain.cpp.o CMakeFiles/optimalMultiplicMatrices.dir/OptimizerCostBased.cpp.o CMakeFiles/optimalMultiplicMatrices.dir/InputReader.cpp.o CMakeFiles/optimalMultiplicMatrices.dir/OutputWriter.cpp.o CMakeFiles/optimalMultiplicMatrices.dir/MatrixController.cpp.o CMakeFiles/optimalMultiplicMatrices.dir/MatrixChainController.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/optimalMultiplicMatrices.dir
   POST_BUILD = :

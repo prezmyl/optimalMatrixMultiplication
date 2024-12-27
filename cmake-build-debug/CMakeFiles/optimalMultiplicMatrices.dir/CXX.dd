@@ -13,3 +13,5 @@ build CMakeFiles/optimalMultiplicMatrices.dir/OutputWriter.cpp.o: dyndep
 
 build CMakeFiles/optimalMultiplicMatrices.dir/MatrixController.cpp.o: dyndep
 
+build CMakeFiles/optimalMultiplicMatrices.dir/MatrixChainController.cpp.o: dyndep
+

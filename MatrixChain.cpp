@@ -38,7 +38,7 @@ string MatrixChain::getOptimalParenthesization() const {
     function<string(int, int)> construct = [&] (int i, int j ) -> string {
         if (i == j) return "A_" + to_string(i);
         int k = splitsTable[i][j];
-        return "(" + construct(i, k) + "* " + construct(k + 1, j) + ")";
+        return "(" + construct(i, k) + " " + construct(k + 1, j) + ")";
     };
     return construct(0, matrices.size() - 1);
 }

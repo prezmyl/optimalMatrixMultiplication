@@ -9,5 +9,5 @@ using namespace std;
 
 void OutputWriter::writeToStandardOutput(MatrixChain &chain) {
     cout << "Optimal Parenthesization: " << chain.getOptimalParenthesization() << "\n";
-    cout << "Optimal Cost: " << chain.getOptimalCost() << "\n";
+    cout << "Optimal Cost: " << chain.getOptimalCost() << "\n\n";
 }
