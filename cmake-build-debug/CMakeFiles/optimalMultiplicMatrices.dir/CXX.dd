@@ -1,0 +1,15 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/optimalMultiplicMatrices.dir/main.cpp.o: dyndep
+
+build CMakeFiles/optimalMultiplicMatrices.dir/Matrix.cpp.o: dyndep
+
+build CMakeFiles/optimalMultiplicMatrices.dir/MatrixChain.cpp.o: dyndep
+
+build CMakeFiles/optimalMultiplicMatrices.dir/OptimizerCostBased.cpp.o: dyndep
+
+build CMakeFiles/optimalMultiplicMatrices.dir/InputReader.cpp.o: dyndep
+
+build CMakeFiles/optimalMultiplicMatrices.dir/OutputWriter.cpp.o: dyndep
+
+build CMakeFiles/optimalMultiplicMatrices.dir/MatrixController.cpp.o: dyndep
+

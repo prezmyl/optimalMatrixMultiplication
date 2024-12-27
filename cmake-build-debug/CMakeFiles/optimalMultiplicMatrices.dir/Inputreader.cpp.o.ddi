@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/optimalMultiplicMatrices.dir/Inputreader.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}
