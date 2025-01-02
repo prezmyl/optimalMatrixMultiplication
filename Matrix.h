@@ -6,6 +6,10 @@
 #define MATRIX_H
 #include <string>
 
+
+/**
+ *
+ */
 class Matrix {
 public:
     int rows, collumns;

@@ -16,7 +16,7 @@ MatrixController::MatrixController(MatrixOptimizer &optimizer) : optimizer(optim
 void MatrixController::processFile(const string& inputFile) {
     ifstream file(inputFile);
     if (!file.is_open()) {
-        throw std::runtime_error("Unable to open file: " + inputFile);
+        throw runtime_error("Unable to open file: " + inputFile);
     }
 
     string line;
@@ -51,6 +51,6 @@ void MatrixController::processInput(const string& input) {
 
 void MatrixController::outputResult() {
     for (const auto& result : results) {
-        std::cout << result << "\n";
+        cout << result << "\n";
     }
 }

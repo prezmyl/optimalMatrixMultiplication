@@ -10,21 +10,9 @@
 
 
 # 1 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixController.h" 1
-
-
-
-
-
-
-
+# 12 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixController.h"
 # 1 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h" 1
-
-
-
-
-
-
-
+# 12 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h"
 # 1 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/Matrix.h" 1
 
 
@@ -31944,7 +31932,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
 # 8 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/Matrix.h" 2
 
 
-# 9 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/Matrix.h"
+
+
+
+
+# 13 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/Matrix.h"
 class Matrix {
 public:
     int rows, collumns;
@@ -31954,7 +31946,7 @@ public:
     bool canMultiplyWith(const Matrix &other) const;
 
 };
-# 9 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h" 2
+# 13 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h" 2
 # 1 "/usr/include/c++/14/vector" 1 3
 # 58 "/usr/include/c++/14/vector" 3
        
@@ -36865,44 +36857,71 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 10 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h" 2
+# 14 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h" 2
+# 23 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h"
 
-
-
-
-# 13 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h"
+# 23 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h"
 class MatrixChain {
 private:
     std::vector<Matrix> matrices;
-    std::vector<std::vector <int>> multiplicationTable;
-    std::vector<std::vector <int>> splitsTable;
-
-
+    std::vector<std::vector<int>> multiplicationTable;
+    std::vector<std::vector<int>> splitsTable;
 
 public:
+
+
+
+
     void addMatrix(const Matrix& matrix);
+
+
+
+
+
+
+
     void calculateTables();
+
+
+
+
+
     std::string getOptimalParenthesization() const;
+
+
+
+
+
     int getOptimalCost();
-
-
 };
-# 9 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixController.h" 2
+# 13 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixController.h" 2
 # 1 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixOptimizer.h" 1
-# 9 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixOptimizer.h"
+# 17 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixOptimizer.h"
 class MatrixOptimizer {
 public:
+
+
+
+
+
+
+
     virtual void optimize(MatrixChain& chain) = 0;
+
+
+
+
     virtual ~MatrixOptimizer() = default;
 };
-# 10 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixController.h" 2
+# 14 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixController.h" 2
 # 1 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/InputReader.h" 1
-# 11 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/InputReader.h"
+# 19 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/InputReader.h"
 class InputReader {
 public:
+# 31 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/InputReader.h"
     static MatrixChain readFromFile(const std::string& filename);
 };
-# 11 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixController.h" 2
+# 15 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixController.h" 2
 # 1 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/OutputWriter.h" 1
 # 10 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/OutputWriter.h"
 # 1 "/usr/include/c++/14/sstream" 1 3
@@ -49468,18 +49487,25 @@ namespace std __attribute__ ((__visibility__ ("default")))
 }
 # 1239 "/usr/include/c++/14/sstream" 2 3
 # 11 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/OutputWriter.h" 2
+# 19 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/OutputWriter.h"
 
-
-
-# 13 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/OutputWriter.h"
+# 19 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/OutputWriter.h"
 class OutputWriter {
 public:
+
+
+
+
+
     static std::string generateOutput(MatrixChain& chain);
+
+
+
+
+
     static void writeToStandardOutput(MatrixChain& chain);
 };
-# 12 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixController.h" 2
-
-
+# 16 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixController.h" 2
 # 1 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/OptimizerCostBased.h" 1
 # 11 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/OptimizerCostBased.h"
 class OptimizerCostBased : public MatrixOptimizer{
@@ -49487,7 +49513,12 @@ public:
     void optimize(MatrixChain &chain) override;
 
 };
-# 15 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixController.h" 2
+# 17 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixController.h" 2
+
+
+
+
+
 
 
 class MatrixController {
@@ -49497,11 +49528,20 @@ private:
     std::vector<std::string> results;
 
 public:
-    MatrixController(MatrixOptimizer& optimizer);
-    void processFile(const std::string &inputFile);
-    void processInput(const std::string& input);
-    void outputResult();
 
+
+
+
+    MatrixController(MatrixOptimizer& optimizer);
+# 45 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixController.h"
+    void processFile(const std::string &inputFile);
+# 54 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixController.h"
+    void processInput(const std::string& input);
+
+
+
+
+    void outputResult();
 };
 # 6 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixController.cpp" 2
 # 1 "/usr/include/c++/14/fstream" 1 3
@@ -52166,7 +52206,7 @@ MatrixController::MatrixController(MatrixOptimizer &optimizer) : optimizer(optim
 void MatrixController::processFile(const string& inputFile) {
     ifstream file(inputFile);
     if (!file.is_open()) {
-        throw std::runtime_error("Unable to open file: " + inputFile);
+        throw runtime_error("Unable to open file: " + inputFile);
     }
 
     string line;
@@ -52201,6 +52241,6 @@ void MatrixController::processInput(const string& input) {
 
 void MatrixController::outputResult() {
     for (const auto& result : results) {
-        std::cout << result << "\n";
+        cout << result << "\n";
     }
 }

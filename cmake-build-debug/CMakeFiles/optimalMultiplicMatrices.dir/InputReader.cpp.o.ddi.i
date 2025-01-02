@@ -10,21 +10,9 @@
 
 
 # 1 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/InputReader.h" 1
-
-
-
-
-
-
-
+# 12 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/InputReader.h"
 # 1 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h" 1
-
-
-
-
-
-
-
+# 12 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h"
 # 1 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/Matrix.h" 1
 
 
@@ -31944,7 +31932,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
 # 8 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/Matrix.h" 2
 
 
-# 9 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/Matrix.h"
+
+
+
+
+# 13 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/Matrix.h"
 class Matrix {
 public:
     int rows, collumns;
@@ -31954,7 +31946,7 @@ public:
     bool canMultiplyWith(const Matrix &other) const;
 
 };
-# 9 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h" 2
+# 13 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h" 2
 # 1 "/usr/include/c++/14/vector" 1 3
 # 58 "/usr/include/c++/14/vector" 3
        
@@ -36865,33 +36857,53 @@ namespace std __attribute__ ((__visibility__ ("default")))
     }
 
 }
-# 10 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h" 2
+# 14 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h" 2
+# 23 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h"
 
-
-
-
-# 13 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h"
+# 23 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/MatrixChain.h"
 class MatrixChain {
 private:
     std::vector<Matrix> matrices;
-    std::vector<std::vector <int>> multiplicationTable;
-    std::vector<std::vector <int>> splitsTable;
-
-
+    std::vector<std::vector<int>> multiplicationTable;
+    std::vector<std::vector<int>> splitsTable;
 
 public:
+
+
+
+
     void addMatrix(const Matrix& matrix);
+
+
+
+
+
+
+
     void calculateTables();
+
+
+
+
+
     std::string getOptimalParenthesization() const;
+
+
+
+
+
     int getOptimalCost();
-
-
 };
-# 9 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/InputReader.h" 2
+# 13 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/InputReader.h" 2
+
+
+
+
 
 
 class InputReader {
 public:
+# 31 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/InputReader.h"
     static MatrixChain readFromFile(const std::string& filename);
 };
 # 6 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/InputReader.cpp" 2

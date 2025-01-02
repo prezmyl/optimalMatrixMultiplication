@@ -31928,7 +31928,11 @@ namespace std __attribute__ ((__visibility__ ("default")))
 # 8 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/Matrix.h" 2
 
 
-# 9 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/Matrix.h"
+
+
+
+
+# 13 "/home/xpolas/banska/algoritmy/aAlg2/projekt/optimalMultiplicMatrices/Matrix.h"
 class Matrix {
 public:
     int rows, collumns;

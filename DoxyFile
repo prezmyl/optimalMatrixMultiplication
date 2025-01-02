@@ -1,0 +1,31 @@
+# Doxyfile 1.9.6
+
+# Project related configuration
+PROJECT_NAME           = "Matrix Chain Optimization"
+PROJECT_BRIEF          = "Project for ALG II - Matrix chain multiplication optimization"
+OUTPUT_DIRECTORY       = docs
+CREATE_SUBDIRS         = YES
+
+# Source code location
+INPUT                  = .
+RECURSIVE              = YES
+FILE_PATTERNS          = *.cpp *.h
+
+# Documentation generation
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = YES
+EXTRACT_LOCAL_METHODS  = YES
+
+# Other options
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+GENERATE_XML           = NO
+
+# Warnings and logging
+QUIET                  = NO
+WARN_IF_UNDOCUMENTED   = YES
+WARNINGS               = YES
+
